@@ -81,7 +81,7 @@ namespace Automaten
                 int tempMoney = this.depositedAmount - money;
                 this.depositedAmount = 0;
                 this.amount = this.amount + tempMoney;
-                return "Item has been bought " + tempMoney + " has been returned to your walelt";
+                return "Item has been bought " + tempMoney + " has been returned to your wallet";
             }
         }
     }
